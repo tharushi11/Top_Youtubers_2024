@@ -1,16 +1,16 @@
 # Top_Youtubers_2024
 
-Top UK YouTubers 2024 Dashboard
+## Top UK YouTubers 2024 Dashboard
 
-Overview
+## Overview
 
 This project analyzes the top YouTube channels in the UK for 2024 based on key metrics such as total views, total videos, and subscriber count. The cleaned dataset is visualized using Power BI to generate insights into channel performance and engagement.
 
 Disclaimer: This project was created for educational purposes. This is my very first project utilizing Power BI. I followed the YouTube tutorial "Excel to Power BI Portfolio Project" by Stephen | Data to complete the project and made some minor adjustments to the workflow and visualizations. The original dataset was sourced from Kaggle.
 
-Project Workflow
+## Project Workflow
 
-1. Data Cleaning with SQL
+### 1. Data Cleaning with SQL
 
 The dataset was cleaned and prepared using SQL to ensure data quality. Below are the data quality checks performed:
 
@@ -39,7 +39,7 @@ FROM view_uk_youtubers_2024
 GROUP BY channel_name
 HAVING COUNT(*) > 1;
 
-2. Visualization with Power BI
+### 2. Visualization with Power BI
 
 Using the cleaned dataset, I created the following visualizations in Power BI:
 
@@ -57,7 +57,7 @@ Views per Subscriber
 
 Summary Table: Includes total views, videos, and subscribers for each channel.
 
-Key Insights
+## Key Insights
 
 NoCopyrightSounds leads with the highest subscriber count (33.60M).
 
@@ -65,7 +65,7 @@ DanTDM has significant dominance in terms of total views.
 
 Channels with fewer videos often achieve higher engagement ratios, indicating focused, high-quality content.
 
-Technologies Used
+## Technologies Used
 
 SQL: For data cleaning and quality testing.
 
@@ -103,4 +103,4 @@ Tutorial Reference: The project was developed by following "Excel to Power BI Po
 
 Contact
 
-Feel free to connect with me on LinkedIn or reach out via email at [your-email@example.com].
+Feel free to connect with me on LinkedIn or reach out via email at tharushika9719@gmail.com.
